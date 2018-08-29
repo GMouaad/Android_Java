@@ -20,6 +20,9 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final int CODE_DRAW_OVER_OTHER_APP_PERMISSION = 2084;
+
+
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
