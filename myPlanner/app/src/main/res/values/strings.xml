@@ -2,4 +2,6 @@
     <string name="app_name">myPlanner</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_chat_head_service">ChatHeadService</string>
+    <string name="title_activity_chat">ChatActivity</string>
 </resources>
