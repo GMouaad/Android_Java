@@ -1,13 +1,17 @@
+/**
+ * @author Mouaad Gssair
+ * @version 1.0
+ * @modified by MouaadGssair on 01.09.18.
+ * @since August 2018
+ */
+
 package mgsair.myplanner;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 
 public class ChatActivity extends AppCompatActivity {
+    private static final String TAG = "ChatActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

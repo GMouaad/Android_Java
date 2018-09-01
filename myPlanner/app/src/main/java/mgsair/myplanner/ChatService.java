@@ -1,3 +1,10 @@
+/**
+ * @author Mouaad Gssair
+ * @version 1.0
+ * @modified by MouaadGssair on 01.09.18.
+ * @since August 2018
+ */
+
 package mgsair.myplanner;
 
 import android.app.Service;
@@ -13,6 +20,7 @@ import android.widget.ImageView;
 
 public class ChatService extends Service {
 
+    private static final String TAG = "ChatService";
     private WindowManager mWindowManager;
     private View mChatHeadView;
 

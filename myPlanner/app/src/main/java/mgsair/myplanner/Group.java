@@ -1,9 +1,16 @@
+/**
+ * @author Mouaad Gssair
+ * @version 1.0
+ * @modified by MouaadGssair on 01.09.18.
+ * @since August 2018
+ */
+
 package mgsair.myplanner;
 
 import java.util.ArrayList;
 
 public class Group {
-
+    private static final String TAG = "Group";
     private String mName;
     private ArrayList<GroupMember> mGroupMembers;
 

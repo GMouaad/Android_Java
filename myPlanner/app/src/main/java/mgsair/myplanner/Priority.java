@@ -1,3 +1,10 @@
+/**
+ * @author Mouaad Gssair
+ * @version 1.0
+ * @modified by MouaadGssair on 01.09.18.
+ * @since August 2018
+ */
+
 package mgsair.myplanner;
 
 public enum Priority {
@@ -10,7 +17,7 @@ public enum Priority {
         this.prioCode = prioCode;
     }
 
-    public int getLevelCode() {
+    public int getPrioCode() {
         return this.prioCode;
     }
 }

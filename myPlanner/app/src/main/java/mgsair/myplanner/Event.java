@@ -1,13 +1,21 @@
+/**
+ * @author Mouaad Gssair
+ * @version 1.0
+ * @modified by MouaadGssair on 01.09.18.
+ * @since August 2018
+ */
+
 package mgsair.myplanner;
 
 import java.util.Date;
 
 public class Event
 {
+    private static final String TAG = "Event";
     private Date mAlarm;
     private String mName;
     private Priority mPrio;
-    private String mStatus;
+    private Status mStatus;
     private String mNote;
     private boolean mDailyRepeat;
     private boolean mWeeklyRepeat;
@@ -39,8 +47,16 @@ public class Event
         return mPrio;
     }
 
-    public String getmStatus() {
+    public Status getmStatus() {
         return mStatus;
+    }
+
+    public void setmPrio(Priority mPrio) {
+        this.mPrio = mPrio;
+    }
+
+    public void setmStatus(Status mStatus) {
+        this.mStatus = mStatus;
     }
 
     public void setmAlarm(Date mAlarm) {

@@ -1,7 +1,14 @@
+/**
+ * @author Mouaad Gssair
+ * @version 1.0
+ * @modified by MouaadGssair on 01.09.18.
+ * @since August 2018
+ */
+
 package mgsair.myplanner;
 
 public class GroupMember {
-
+    private static final String TAG = "GroupMember";
     private String mName;
     private int id;
     private String email;
